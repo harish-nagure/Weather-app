@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0;
+    color:white;
+}
+
+body{
+  background-color: rgba(190, 84, 9, 0.2);
+}
+
+.box {
+    background-image: url('https://www.sknis.gov.kn/wp-content/uploads/2017/07/Weather-Blog-Image.jpg');
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    height: 350px;
+    margin: 10% auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-family: "Jost";
+    font-style: normal,bold;
+    text-align: center;
+    z-index: -0.5;
+}
+
+.inputField {
+  width: 80%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid #a97d7d;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  color: antiquewhite;
+
+}
+.inputField:hover{
+  background-color:  rgba(255, 255, 255, 0.3);
+}
+
+  .info {
+    text-align: center;
+    border: black;
+    text-shadow: 0 0 20px #585255, 0 0 30px #000000, 0 0 40px #060103, 0 0 50px #050404;
+  }
+  
+  .location {
+    font-size: 35px;
+    margin-top: 20px;
+    z-index: 5;
+    
+  }
+  
+  .temp {
+    font-size: 50px;
+    margin-top: 40px;
+    z-index: 5;
+  }
+  
+  .tempmin_max {
+    font-size: 20px;
+    margin-top: 40px;
+    z-index: 5;
+  }
+  
+  .weather {
+    font-size: 20px;
+    margin-top: 20px;
+    z-index: 5;
+  }
+  
